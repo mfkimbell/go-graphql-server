@@ -27,7 +27,7 @@
 ### Imporant to know:
 #### GraphQL Schema:
 Defines the structure of the GraphQL API, including types, queries, and mutations. It acts as a contract between the client and the server, specifying what data can be queried or mutated.
-### Resolvers:
+#### Resolvers:
 Resolvers actually hold the logic for connecting to the database and grabbing the desired data and returning it in the desired state. In this case, I wrote most of the logic in my "Database" package. 
 #### Types:
 Define the shape of the data. For example, Dog specifies fields like _id, name, and isGoodBoi.
